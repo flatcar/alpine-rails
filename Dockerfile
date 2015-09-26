@@ -1,6 +1,6 @@
 FROM alpine:3.2
 
-MAINTAINER CenturyLink Labs <innovationslab@ctl.io>
+MAINTAINER Laura Frank <laura@codeship.com>
 
 ENV BUILD_PACKAGES="curl-dev ruby-dev build-base" \
     DEV_PACKAGES="zlib-dev libxml2-dev libxslt-dev tzdata yaml-dev sqlite-dev postgresql-dev mysql" \
